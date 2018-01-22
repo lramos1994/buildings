@@ -1,0 +1,16 @@
+.canvas {
+	border: 1px solid #000;
+	width: 600px;
+	margin: auto;
+	overflow: hidden;	
+	position: relative;
+
+	> img {
+		max-width: 100%;
+
+		&.image-1 {
+			transform: rotate(-1deg);
+			margin-top: -75px;
+		}
+	}
+}

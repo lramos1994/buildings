@@ -1,0 +1,22 @@
+$blue-dark: #616668;
+$blue-light: #899998;
+
+.residencial-blue {
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	.top {
+		position: absolute;
+		top: 11px;
+		left: 36px;
+		background: $blue-light;
+		width: 455px;
+		height: 19px;
+		border-top: 7px solid $blue-dark;
+
+		&::before {
+			
+		}
+	}
+}

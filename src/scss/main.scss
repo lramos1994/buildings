@@ -1,0 +1,18 @@
+/*! Primitive
+  by Tania Rascia */ 
+
+// Configuration
+@import "base/variables";
+@import "base/mixins";
+
+// Reset
+@import "base/normalize";
+@import "base/reset";
+
+// Components
+@import "components/scaffolding";
+@import "components/helpers";
+@import "components/canvas";
+
+// Buildings
+@import "buildings/residencial-blue";
